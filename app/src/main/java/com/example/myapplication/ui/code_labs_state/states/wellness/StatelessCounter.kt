@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.code_labs_state.states
+package com.example.myapplication.ui.code_labs_state.states.wellness
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding

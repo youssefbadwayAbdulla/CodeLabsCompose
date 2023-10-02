@@ -1,13 +1,11 @@
-package com.example.myapplication.ui.code_labs_state.states
+package com.example.myapplication.ui.code_labs_state.states.wellness
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.toMutableStateList
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.myapplication.ui.code_labs_state.states.viewmodel.WellnessViewModel
+import com.example.myapplication.ui.code_labs_state.states.wellness.viewmodel.WellnessViewModel
 
 @Composable
 fun WellnessScreen(

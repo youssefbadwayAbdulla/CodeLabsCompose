@@ -1,8 +1,8 @@
-package com.example.myapplication.ui.code_labs_state.states.viewmodel
+package com.example.myapplication.ui.code_labs_state.states.wellness.viewmodel
 
 import androidx.compose.runtime.toMutableStateList
 import androidx.lifecycle.ViewModel
-import com.example.myapplication.ui.code_labs_state.states.WellnessTask
+import com.example.myapplication.ui.code_labs_state.states.wellness.WellnessTask
 
 class WellnessViewModel() : ViewModel() {
     private val _tasks = getWellnessTasks().toMutableStateList()

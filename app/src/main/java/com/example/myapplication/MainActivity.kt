@@ -3,7 +3,6 @@ package com.example.myapplication
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
@@ -18,10 +17,8 @@ import com.example.myapplication.ui.theme.MyApplicationTheme
 import com.example.myapplication.ui.code_labs_2.fittnes.HomeScreen
 import com.example.myapplication.ui.code_labs_2.navigation.SootheBottomNavigation
 import com.example.myapplication.ui.code_labs_2.navigation.SootheNavigationRail
-import com.example.myapplication.ui.code_labs_state.states.StatefulCounter
-import com.example.myapplication.ui.code_labs_state.states.StatelessCounter
-import com.example.myapplication.ui.code_labs_state.states.WellnessScreen
-import com.example.myapplication.ui.code_labs_state.states.WellnessTasksList
+import com.example.myapplication.ui.code_labs_state.states.HelloContent
+import com.example.myapplication.ui.code_labs_state.states.wellness.WellnessScreen
 
 class MainActivity : ComponentActivity() {
     @OptIn(ExperimentalMaterial3WindowSizeClassApi::class)
@@ -32,7 +29,8 @@ class MainActivity : ComponentActivity() {
                 /* val windowSizeClass = calculateWindowSizeClass(this)
                  MySootheApp(windowSizeClass)*/
                 //TwoButtonScreen()
-                WellnessScreen()
+               // WellnessScreen()
+                HelloContent()
             }
         }
     }
